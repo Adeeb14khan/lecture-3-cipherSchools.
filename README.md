@@ -1,22 +1,20 @@
-# lecture-3-cipherSchools.
-class lec_3{
-    public static void main(String args[]){
-        int x=5;
-        int y=6;
-        System.out.println("the value of x is : "+x);
-        System.out.println("the value of y is : "+y);
+# Java DSA Problem: Longest Substring Without Repeating Characters
 
-        byte b=10;
-        System.out.println("value of b is : "+ b);
+This project demonstrates a high-quality Java solution to the classic DSA problem:
 
-        //widening(Narrowing/Upcasting)
-        int i=b;
-        System.out.println("Value of i is : "+i);
+> **Given a string s, find the length of the longest substring without repeating characters.**
 
-        byte b2=(byte)129; //Implicit Typecasting or Narrowing or Down-casting
-        System.out.println("b2 is : "+b2);
+## Problem (Leetcode #3)
+Example:
+- Input: `"abcabcbb"`
+- Output: `3` (because `"abc"` is the longest substring without repeating characters).
 
-        byte b3=(byte)256; 
-        System.out.println("b2 is : "+b3);
-    }
-}
+## Solution Approach
+
+We use the **sliding window technique** with a `HashSet` to check for repeated characters efficiently.
+
+## How to Run
+
+1. Clone the repository
+2. Compile the code
+3. Run the code
